@@ -72,7 +72,7 @@ public class VirtualImagePlus extends ImagePlus {
 
   // -- ImagePlus API methods --
 
-  @Override
+  /*@Override
   public synchronized void setSlice(int index) {
     super.setSlice(index);
 
@@ -93,7 +93,7 @@ public class VirtualImagePlus extends ImagePlus {
       }
       this.ip = proc;
     }
-  }
+  }*/
 
   @Override
   public void close() {
